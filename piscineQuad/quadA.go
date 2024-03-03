@@ -20,7 +20,7 @@ func atoi(n string) int {
 	return nb * signe
 }
 func QuadA(x, y int) {
-	if x < 0 || y < 0 {
+	if x <= 0 || y <= 0 {
 		return
 	}
 	for i := 1; i <= y; i++ {

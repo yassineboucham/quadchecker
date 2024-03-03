@@ -21,7 +21,7 @@ func atoi(n string) int {
 }
 
 func QuadE(x, y int) {
-	if x < 0 || y < 0 {
+	if x <= 0 || y <= 0 {
 		return
 	}
 	for i := 1; i <= y; i++ {
